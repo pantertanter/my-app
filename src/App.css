@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.container {
+  border: #000;
+  border-width: 1cm;
+}
+
 .App-row {
   height: 33%;
   width: 33%;
@@ -42,7 +47,19 @@
 
 .App-img {
   width: 440px;
+  height: 100%;
   float: left;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.App-img-grey {
+  width: 428px;
+  border-bottom: 100px;
+  border-color: b2b2b2;
+}
+
+.App-img-background{
+  width: 100%;
 }
 
 @keyframes App-logo-spin {

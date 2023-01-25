@@ -8,6 +8,8 @@ import VinOplukker from './assets/images/Products/Vinoplukkerv1.png'
 import Curve from './assets/images/Products/6,2_curve_2022-Sep-14_07-23-08AM-000_CustomizedView13402167234_png.png'
 import DropThrough from './assets/images/Products/4,_2_drop_through_assembly_2022-Sep-23_01-45-16PM-000_CustomizedView25849388260_png.png'
 import Bicycle from './assets/images/Products/Bicycle_assembly_2022-Oct-04_09-41-33AM-000_CustomizedView2984346625_png.png'
+import Grey_Background from './assets/images/Products/Grey_Background.png'
+
 
 import PrivacyPolicy1 from './assets/images/PrivacyPolicy/1.jpg'
 import PrivacyPolicy2 from './assets/images/PrivacyPolicy/2.jpg'
@@ -33,11 +35,12 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
      
         <div className="container">
+        {/* <img src={Grey_Background} alt="Grey_Background" className="App-img-grey" /> */}
             <div className="App-column">
             <img src={BottleOpener} alt="Bottleopenerv1" className="App-img" />
             </div>
             <div className="App-column">
-            <img src={VinOplukker} alt="Curve" className="App-img" />
+            <img src={VinOplukker} alt="VinOplukker" className="App-img" />
             </div>
             <div className="App-column">
             <img src={Curve} alt="Curve" className="App-img" />
@@ -49,11 +52,12 @@ function App() {
             <div className="App-column">
             <img src={Bicycle} alt="Bicycle" className="App-img" />
             </div>
-            <div className="App-column">
+            <div className="App-column, App-img">
+            <img src={DropThrough} alt="DropThrough" className="App-img" />
             </div>
             <div className="App-row">
-            <img src={DropThrough} alt="DropThrough" className="App-img" />
-
+            <img src={Curve} alt="Curve" className="App-img" />
+            {/* <img src={Grey_Background} alt="Grey_Background" className="App-img-grey" /> */}
             </div>
             
         </div>

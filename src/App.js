@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 import PrivacyPolicy1 from './assets/images/PrivacyPolicy/1.jpg'
 import PrivacyPolicy2 from './assets/images/PrivacyPolicy/2.jpg'
@@ -16,9 +18,52 @@ import PrivacyPolicy12 from './assets/images/PrivacyPolicy/12.jpg'
 
 function App() {
   return (
+
+    
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+     
+        <div className="container">
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-row" >
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-row">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-column">
+            <p> This is a paragraph</p>
+            </div>
+            <div className="App-row">
+            <p> This is a paragraph</p>
+            </div> 
+        </div>
+
         <img src={PrivacyPolicy1} alt="PrivacyPolicy1" />
         <img src={PrivacyPolicy1} alt="PrivacyPolicy2" />
         <img src={PrivacyPolicy1} alt="PrivacyPolicy3" />

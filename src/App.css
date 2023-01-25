@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.App-row {
+  height: 33%;
+  width: 33%;
+  float: left;
+}
+
+.App-column {
+  width: 33%;
+  height: 33%;
+  float: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

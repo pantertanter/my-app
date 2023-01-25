@@ -3,6 +3,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import BottleOpener from './assets/images/Products/Bottleopenerv1.png'
+import VinOplukker from './assets/images/Products/Vinoplukkerv1.png'
+import Curve from './assets/images/Products/6,2_curve_2022-Sep-14_07-23-08AM-000_CustomizedView13402167234_png.png'
+import DropThrough from './assets/images/Products/4,_2_drop_through_assembly_2022-Sep-23_01-45-16PM-000_CustomizedView25849388260_png.png'
+import Bicycle from './assets/images/Products/Bicycle_assembly_2022-Oct-04_09-41-33AM-000_CustomizedView2984346625_png.png'
+
 import PrivacyPolicy1 from './assets/images/PrivacyPolicy/1.jpg'
 import PrivacyPolicy2 from './assets/images/PrivacyPolicy/2.jpg'
 import PrivacyPolicy3 from './assets/images/PrivacyPolicy/3.jpg'
@@ -16,6 +22,7 @@ import PrivacyPolicy10 from './assets/images/PrivacyPolicy/10.jpg'
 import PrivacyPolicy11 from './assets/images/PrivacyPolicy/11.jpg'
 import PrivacyPolicy12 from './assets/images/PrivacyPolicy/12.jpg'
 
+
 function App() {
   return (
 
@@ -27,41 +34,28 @@ function App() {
      
         <div className="container">
             <div className="App-column">
-            <p> This is a paragraph</p>
+            <img src={BottleOpener} alt="Bottleopenerv1" className="App-img" />
             </div>
             <div className="App-column">
-            <p> This is a paragraph</p>
+            <img src={VinOplukker} alt="Curve" className="App-img" />
             </div>
             <div className="App-column">
-            <p> This is a paragraph</p>
+            <img src={Curve} alt="Curve" className="App-img" />
             </div>
             <div className="App-row" >
-            <p> This is a paragraph</p>
             </div>
             <div className="App-column">
-            <p> This is a paragraph</p>
             </div>
             <div className="App-column">
-            <p> This is a paragraph</p>
+            <img src={Bicycle} alt="Bicycle" className="App-img" />
             </div>
             <div className="App-column">
-            <p> This is a paragraph</p>
             </div>
             <div className="App-row">
-            <p> This is a paragraph</p>
+            <img src={DropThrough} alt="DropThrough" className="App-img" />
+
             </div>
-            <div className="App-column">
-            <p> This is a paragraph</p>
-            </div>
-            <div className="App-column">
-            <p> This is a paragraph</p>
-            </div>
-            <div className="App-column">
-            <p> This is a paragraph</p>
-            </div>
-            <div className="App-row">
-            <p> This is a paragraph</p>
-            </div> 
+            
         </div>
 
         <img src={PrivacyPolicy1} alt="PrivacyPolicy1" />

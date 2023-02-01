@@ -57,23 +57,22 @@ function App() {
             </div>
             <div className="App-row">
             <img src={Curve} alt="Curve" className="App-img" />
-            {/* <img src={Grey_Background} alt="Grey_Background" className="App-img-grey" /> */}
             </div>
             
         </div>
 
         <img src={PrivacyPolicy1} alt="PrivacyPolicy1" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy2" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy3" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy4" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy5" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy6" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy7" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy8" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy9" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy10" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy11" />
-        <img src={PrivacyPolicy1} alt="PrivacyPolicy12" />
+        <img src={PrivacyPolicy2} alt="PrivacyPolicy2" />
+        <img src={PrivacyPolicy3} alt="PrivacyPolicy3" />
+        <img src={PrivacyPolicy4} alt="PrivacyPolicy4" />
+        <img src={PrivacyPolicy5} alt="PrivacyPolicy5" />
+        <img src={PrivacyPolicy6} alt="PrivacyPolicy6" />
+        <img src={PrivacyPolicy7} alt="PrivacyPolicy7" />
+        <img src={PrivacyPolicy8} alt="PrivacyPolicy8" />
+        <img src={PrivacyPolicy9} alt="PrivacyPolicy9" />
+        <img src={PrivacyPolicy10} alt="PrivacyPolicy10" />
+        <img src={PrivacyPolicy11} alt="PrivacyPolicy11" />
+        <img src={PrivacyPolicy12} alt="PrivacyPolicy12" />
 
         <p>
           Edit <code>src/App.js</code> and save to reload.

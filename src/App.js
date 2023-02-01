@@ -60,7 +60,7 @@ function App() {
             </div>
             
         </div>
-
+        <div className="Privacy-policy">
         <img src={PrivacyPolicy1} alt="PrivacyPolicy1" />
         <img src={PrivacyPolicy2} alt="PrivacyPolicy2" />
         <img src={PrivacyPolicy3} alt="PrivacyPolicy3" />
@@ -73,7 +73,7 @@ function App() {
         <img src={PrivacyPolicy10} alt="PrivacyPolicy10" />
         <img src={PrivacyPolicy11} alt="PrivacyPolicy11" />
         <img src={PrivacyPolicy12} alt="PrivacyPolicy12" />
-
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

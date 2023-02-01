@@ -52,6 +52,11 @@
   border: 20px solid rgba(0, 0, 0, 0.05);
 }
 
+.Privacy-policy {
+  width: 50%;
+  padding-right: 10cm;
+}
+
 .App-img-grey {
   width: 428px;
   border-bottom: 100px;

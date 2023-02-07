@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import PrivacyPolicy from './Sections/PrivacyPolicy';
 import Picture from './Sections/Picture';
 import CatFacts from './Sections/Apis/Cat-Facts'
-import Img from './Sections/Apis/Img'
+import ImageRnd from './Sections/Apis/ImageRnd'
+import AuthenticNotes from './Sections/Authentic notes';
 
 
 function App() {
@@ -14,9 +13,9 @@ function App() {
 
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Img />
         <CatFacts />
+        <AuthenticNotes />
+        <ImageRnd />
         <Picture />
         <PrivacyPolicy />
         <p>

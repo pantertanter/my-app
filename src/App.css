@@ -85,6 +85,42 @@
   width: 100%;
 }
 
+.P-picsum {
+  float: right;
+}
+
+.A-row {
+  padding: 0 4px;
+}
+
+.A-column {
+  max-width: 66%;
+  width: 66%;
+  padding: 0 4px;
+  float: left;
+}
+
+.a-link {
+  color:Tomato;
+}
+
+p {
+  color: rgb(35, 13, 231);
+}
+
+div {
+  /* background-image: url('http://www.thinksnaps.com/wp-content/uploads/2014/07/images-background.jpg'); */
+  background-color: #61dafb;
+}
+
+.normal-div {
+  width:100%;
+}
+
+.sub-column {
+  width: 33%;
+}
+
 /* .App-img {
   width: 500px;
   height: 500px;

@@ -19,9 +19,13 @@ export default function CatFacts() {
   if (!post) return "No post!"
 
   return (
-    <div>
+    <div className="normal-div">
       <h1>{"Facts about cats"}</h1>
-      <p>{post.fact}</p>
+      <b>{post.fact}</b>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }

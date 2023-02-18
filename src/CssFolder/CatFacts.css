@@ -10,3 +10,11 @@
     border-style: solid;
     font-size: 25px;
 }
+
+.normal-cat-div h4 {
+    color: chartreuse;
+}
+
+.normal-cat-div p {
+    color: chartreuse;
+}

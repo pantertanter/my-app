@@ -88,7 +88,7 @@
 .Privacy-policy-column img {
   margin-top: 8px;
   vertical-align: middle;
-  border: #000;
+  border: #ffffff;
   border-width: 1cm;
   width: 100%;
 }
@@ -118,7 +118,7 @@ p {
 
 div {
   /* background-image: url('http://www.thinksnaps.com/wp-content/uploads/2014/07/images-background.jpg'); */
-  background-color: #61dafb;
+  background-color: #cb9825;
 }
 
 .normal-div {

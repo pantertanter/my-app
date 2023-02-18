@@ -8,14 +8,15 @@ function Navbar() {
     return (
         <div className='navbar'>
         <ul className='navbar-menu'>
-            <li><Link to="/">Home</Link></li>
-            <li><a href={source}>Authentic notes on google play</a></li>
-            <li><Link to="/PrivacyPolicy">Privacy Policy for Authentic notes</Link></li>
-            <li><Link to="/contactPage">Contact</Link></li>
+            <br></br>
+            <li><Link to="/"><p>Home</p></Link></li>
+            <li><a href={source}><p>Authentic notes on google play</p></a></li>
+            <li><Link to="/PrivacyPolicy"><p>Privacy Policy for Authentic notes</p></Link></li>
+            <li><Link to="/contactPage"><p>Contact</p></Link></li>
         </ul>
         <div className='navbar-logo'>
             <img src={ require('../assets/images/Logo/Logo.jpg') } alt="Logo for Alexander Stub Michelsen" />
-            </div>
+        </div>
         </div>
     )
 }

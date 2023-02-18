@@ -45,7 +45,8 @@ export default function PrivacyPolicy() {
             <div className="Privacy-policy-row">    
                 <img src={PrivacyPolicy7} alt="PrivacyPolicy7" />
                 <img src={PrivacyPolicy8} alt="PrivacyPolicy8" />
-                </div> 
+            </div>
+            </div> 
                 <div className="Privacy-policy-column">
             <div className="Privacy-policy-row">     
                 <img src={PrivacyPolicy9} alt="PrivacyPolicy9" />
@@ -59,7 +60,6 @@ export default function PrivacyPolicy() {
             </div>  
             </div> 
         </div>
-    </div>
     );
 }
 

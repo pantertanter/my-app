@@ -21,9 +21,10 @@ export default function CatFacts() {
 
   return (
     <div className="normal-cat-div">
-      <h3>{"Fact about cat"}</h3>
-      <p>{post.fact}</p>
-    
+      <ul>
+      <li><h4>{"Fact about cat"}</h4></li>
+      <li><p>{post.fact}</p></li>
+      </ul>
     </div>
   );
 }

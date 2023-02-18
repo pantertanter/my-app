@@ -1,5 +1,6 @@
 import axios from "axios";
 import React from "react";
+import '../../CssFolder/CatFacts.css'
 
 const client = axios.create({
   baseURL: "https://catfact.ninja/fact" 
@@ -19,13 +20,10 @@ export default function CatFacts() {
   if (!post) return "No post!"
 
   return (
-    <div className="normal-div">
-      <h1>{"Facts about cats"}</h1>
-      <b>{post.fact}</b>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+    <div className="normal-cat-div">
+      <h3>{"Fact about cat"}</h3>
+      <p>{post.fact}</p>
+    
     </div>
   );
 }

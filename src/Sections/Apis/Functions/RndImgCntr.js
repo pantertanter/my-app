@@ -4,25 +4,29 @@ export default function ImageRndCntr() {
 
     let source = "https://picsum.photos/500";
 
-    function timeout(delay: number) {
-        return new Promise( res => setTimeout(res, delay) );
-    }
+    /* state = {
+        bars:[00,01,02,03,04,05],
+        activeImageIndex: 0
+     }; */
+    
+    
+    
+    //  <Image src={this.state.bars[activeImageIndex]} />
   
   return (
     <>
-    {timeout(1000)}
         <div className="Picture-row">
             <div className="Picture-column">
-                <img src={source} alt="random" />
-                <img src={source} alt="random" />
+                <img src={source} alt="random" loading="lazy" />
+                <img src={source} alt="random" loading="lazy" />
             </div>
             <div className="Picture-column">
-                <img src={source} alt="random" />
-                <img src={source} alt="random" />
+                <img src={source} alt="random" loading="lazy" />
+                <img src={source} alt="random" loading="lazy" />
             </div>
             <div className="Picture-column">
-                <img src={source} alt="random" />
-                <img src={source} alt="random" />
+                <img src={source} alt="random" loading="lazy" />
+                <img src={source} alt="random" loading="lazy" />
             </div>
         </div>
         </>

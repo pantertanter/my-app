@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PrivacyPolicy from './Sections/PrivacyPolicy';
 import Picture from './Sections/Picture';
 import CatFacts from './Sections/Apis/Cat-Facts'
 import ImageRnd from './Sections/Apis/ImageRnd'
-import AuthenticNotes from './Sections/Authentic notes';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -13,11 +12,10 @@ function App() {
 
     <div className="App">
       <header className="App-header">
+        <Navbar />
         <CatFacts />
-        <AuthenticNotes />
         <ImageRnd />
         <Picture />
-        <PrivacyPolicy />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

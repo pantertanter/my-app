@@ -1,0 +1,22 @@
+.navbar {
+    padding: 20px;
+    background-color:#61dafb;
+    width:100%;
+    border-style: solid;
+}
+
+.navbar-logo {
+    background-color: #61dafb;
+    justify-content: right; 
+    /* margin-right: 20px; */
+
+}
+
+.navbar-menu {
+    background-color: #61dafb;
+    text-align: left;
+    justify-content: left;
+    font-size: 20px;
+
+    
+}

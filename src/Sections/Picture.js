@@ -12,7 +12,7 @@ export default function Picture() {
     return (
         <div className="Picture-row">
             <div className="Picture-column">
-                <img src={Curve} alt="Curve" />
+                <img src={Curve} alt="Curve" loading=" lazy" />
                 <img src={VinOplukker} alt="VinOplukker" />
             </div>
             <div className="Picture-column">

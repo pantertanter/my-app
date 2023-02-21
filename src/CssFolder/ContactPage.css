@@ -1,0 +1,39 @@
+.ContactInfo {
+    padding: 20px;
+    background-color:#cb9825;
+    width:100%;
+    border-style: solid;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-color: rgb(255, 255, 255);
+}
+
+.ContactInfo-Schema {
+    background-color: #cb9825;
+    text-align: left;
+    justify-content: left;
+    font-size: 25px;
+    /* font-weight: bold; */
+    width: 100%;
+    height: 100%;
+    color:chartreuse;
+}
+
+li {
+    color:chartreuse;
+}
+
+img {
+    width: 49%;
+    height: 100%;
+    margin: 10px;
+    
+}
+
+p {
+    color:chartreuse;
+    text-decoration: underline;
+}
+

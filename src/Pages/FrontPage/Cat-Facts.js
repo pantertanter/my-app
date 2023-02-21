@@ -17,7 +17,7 @@ export default function CatFacts() {
     getPost();
   }, []);
 
-  if (!post) return "No post!"
+  if (!post) return "Reload the page"
 
   return (
     <div className="normal-cat-div">

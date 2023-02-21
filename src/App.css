@@ -58,12 +58,13 @@
   width: 100%;
 }
 
-.Picture-column iframe {
+.Picture-column video {
   vertical-align: middle;
   width: 100%;
-  padding: 100px;
-  border-right-style: solid;
-}
+  height: 100%;
+  padding: 10px;
+/*   border-style: solid;
+ */}
 
 .Iframe-row  {
   display: flex;

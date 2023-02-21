@@ -6,6 +6,8 @@ import CatFacts from './Pages/FrontPage/Cat-Facts'
 import ImageRnd from './components/ImageRnd'
 import Navbar from './components/Navbar';
 import { Picture2 } from './components/Picture';
+import EmbeddedGame from './components/EmbeddedGame';
+import EmbeddedVideo from './components/EmbeddedVideo';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <CatFacts />
         <ImageRnd />
         <Picture />
+        <EmbeddedVideo />
         <ImageRnd />
         <Picture2 />
         <ImageRnd />

@@ -54,6 +54,34 @@
 }
 
 .Picture-column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.Picture-column iframe {
+  vertical-align: middle;
+  width: 100%;
+  padding: 100px;
+  border-right-style: solid;
+}
+
+.Iframe-row  {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-style: solid;
+}
+
+.Iframe-column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.Iframe-column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;

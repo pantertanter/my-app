@@ -9,13 +9,13 @@ var num = Math.floor(Math.random() * 1000);
         <>
             <div className="Picture-row">
                 <div className="Picture-column">
-                    <img src={source} alt="random" loading="lazy"/>
+                    <img src={source} alt="random" />
                 </div>
                 <div className="Picture-column">
-                    <img src={source} alt="random" loading="lazy"/>
+                    <img src={source} alt="random" />
                 </div>
                 <div className="Picture-column">
-                    <img src={source} alt="random" loading="lazy"/>
+                    <img src={source} alt="random" />
                 </div>
             </div>
             </>

@@ -5,8 +5,7 @@ import Picture from './Sections/Picture';
 import CatFacts from './Sections/Apis/Cat-Facts'
 import ImageRnd from './Sections/Apis/ImageRnd'
 import Navbar from './components/Navbar';
-import ImAPictureFileToo  from './Sections/Apis/Functions/I\'mAPictureFileToo.js';
-
+import { Picture2 } from './Sections/Picture';
 
 function App() {
   return (
@@ -18,7 +17,8 @@ function App() {
         <ImageRnd />
         <Picture />
         <ImageRnd />
-        <ImAPictureFileToo />
+        <Picture />
+        <ImageRnd />
       </header>
     </div>
   );

@@ -12,19 +12,34 @@ export default function Picture() {
     return (
         <div className="Picture-row">
             <div className="Picture-column">
-                <img src={Curve} alt="Curve" loading=" lazy" />
-                <img src={VinOplukker} alt="VinOplukker" />
+                <img src={Curve} alt="Curve" loading=" lazy" />                
             </div>
             <div className="Picture-column">
-                <img src={Bicycle} alt="Bicycle" />
-                <img src={DropThrough} alt="DropThrough" />
+                <img src={Bicycle} alt="Bicycle" />               
             </div>
             <div className="Picture-column">
                 <img src={BottleOpener} alt="Bottleopenerv1" />
+            </div>
+        </div>
+    );
+}
+
+export function Picture2() {
+
+    return (
+        <div className="Picture-row">
+            <div className="Picture-column">
+                <img src={VinOplukker} alt="VinOplukker" />
+            </div>
+            <div className="Picture-column">
+                <img src={DropThrough} alt="DropThrough" />
+            </div>
+            <div className="Picture-column">
                 <img src={Curve} alt="Curve" />
             </div>
         </div>
     );
+
 }
 
 

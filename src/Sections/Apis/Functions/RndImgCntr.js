@@ -1,15 +1,12 @@
 import React from "react";
+import React, { useState } from "react";
+
 
 export default function ImageRndCntr() {
 
-    let source = "https://picsum.photos/500";
+    var num = Math.floor(Math.random() * 1000);
 
-    /* state = {
-        bars:[00,01,02,03,04,05],
-        activeImageIndex: 0
-     }; */
-    
-    
+    let source = "https://picsum.photos/" + num + "/500";
     
     //  <Image src={this.state.bars[activeImageIndex]} />
   

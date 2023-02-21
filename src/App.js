@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Picture from './Sections/Picture';
-import CatFacts from './Sections/Apis/Cat-Facts'
-import ImageRnd from './Sections/Apis/ImageRnd'
+import Picture from './components/Picture';
+import CatFacts from './Pages/FrontPage/Cat-Facts'
+import ImageRnd from './components/ImageRnd'
 import Navbar from './components/Navbar';
-import { Picture2 } from './Sections/Picture';
+import { Picture2 } from './components/Picture';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <ImageRnd />
         <Picture />
         <ImageRnd />
-        <Picture />
+        <Picture2 />
         <ImageRnd />
       </header>
     </div>

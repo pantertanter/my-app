@@ -12,7 +12,7 @@ const EmbeddedVideo = () => {
             <img src={GreyBackground} alt="Suave background" />         
             </div>
             <div className="Picture-column">
-            <video src={Lamb} autoplay muted controls="controls" autoplay="true" />    
+            <video src={Lamb} muted autoplay="true" />    
             </div>
             <div className="Picture-column">
             <img src={GreyBackground} alt="Suave background" />

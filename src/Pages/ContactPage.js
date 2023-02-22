@@ -4,13 +4,14 @@ import Navbar from '../components/Navbar';
 import ContactImg from '../assets/images/Contact/contact-us-graphic.jpg'
 import PacPic from '../assets/images/Contact/pacman_PNG66.png'
 import Footer from '../components/Footer';
+import MailTo from './MailTo';
 
 let source = "https://www.linkedin.com/in/alexander-stub-michelsen-2a6a301a4/"
 
 
 export default function ContactPage() {
-  return (
 
+  return (
     <div>
       <header>
         <Navbar />
@@ -27,7 +28,7 @@ export default function ContactPage() {
               <h4>3400 Hillerød, DK</h4>
               </li>
               <li>
-              <h4>AlexanderStubMichelsen@gmail.com</h4>
+              <h4>AlexanderStubMichelsen@gmail.com<a href="mailto:AlexanderStubMichelsen@gmail.com">&nbsp;&nbsp;Send Email</a></h4>
               </li>
               <li>
               <h4>004528919844</h4>

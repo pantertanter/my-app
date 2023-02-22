@@ -37,3 +37,12 @@ p {
     text-decoration: underline;
 }
 
+a {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: green;
+  }
+

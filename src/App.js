@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import { Picture2 } from './components/Picture';
 import EmbeddedGame from './components/EmbeddedGame';
 import EmbeddedVideo from './components/EmbeddedVideo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,11 +18,13 @@ function App() {
         <Navbar />
         <CatFacts />
         <ImageRnd />
-        <Picture />
         <EmbeddedVideo />
+
+        <Picture />
         <ImageRnd />
         <Picture2 />
         <ImageRnd />
+        <Footer />
       </header>
     </div>
   );

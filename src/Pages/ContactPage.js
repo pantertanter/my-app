@@ -3,6 +3,7 @@ import '../CssFolder/ContactPage.css';
 import Navbar from '../components/Navbar';
 import ContactImg from '../assets/images/Contact/contact-us-graphic.jpg'
 import PacPic from '../assets/images/Contact/pacman_PNG66.png'
+import Footer from '../components/Footer';
 
 let source = "https://www.linkedin.com/in/alexander-stub-michelsen-2a6a301a4/"
 
@@ -39,6 +40,7 @@ export default function ContactPage() {
           <img src={ContactImg} alt="ContactImg" loading=" lazy" /> 
           <img src={PacPic} alt="ContactImg" loading=" lazy" />                
         </div>
+        <Footer />
         </div>
   )
 }

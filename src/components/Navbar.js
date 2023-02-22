@@ -11,7 +11,7 @@ function Navbar() {
             <br></br>
             <li><Link to="/"><p>Home</p></Link></li>
             <li><a href={source}><p>Authentic notes on google play</p></a></li>
-            <li><Link to="/PrivacyPolicy"><p>Privacy Policy for Authentic notes</p></Link></li>
+            <li><Link to="/PrivacyPolicy"><p>Authentic notes privacy Policy</p></Link></li>
             <li><Link to="/contactPage"><p>Contact</p></Link></li>
         </ul>
         <div className='navbar-logo'>

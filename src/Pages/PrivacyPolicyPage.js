@@ -1,6 +1,9 @@
 import React from 'react'
-import '../CssFolder/PrivacyPolicy.css';
 import Navbar from '../components/Navbar';
+import '../App.css';
+import GreyBackground from '../assets/images/Products/Grey_Background.png'
+
+
 
 
 import PrivacyPolicy1 from '../assets/images/PrivacyPolicy/1.jpg'
@@ -15,51 +18,111 @@ import PrivacyPolicy9 from '../assets/images/PrivacyPolicy/9.jpg'
 import PrivacyPolicy10 from '../assets/images/PrivacyPolicy/10.jpg'
 import PrivacyPolicy11 from '../assets/images/PrivacyPolicy/11.jpg'
 import PrivacyPolicy12 from '../assets/images/PrivacyPolicy/12.jpg'
+import Footer from '../components/Footer';
 
 export default function PrivacyPolicy() {
 
+
+
     return (
+        <>
         <div>
       <header >
         <Navbar />
         </header>
-        <div className="Privacy-policy-column">
-            <div className="Privacy-policy-row">
-                <img src={PrivacyPolicy1} alt="PrivacyPolicy1" />
-                <img src={PrivacyPolicy2} alt="PrivacyPolicy2" />
+        </div>
+            <div className="Picture-row">
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy1} alt="Page one of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy2} alt="Page two of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                    <img className='Picture-img' src={PrivacyPolicy3} alt="Page three of the privacy policy" loading="lazy" />
+                </div>
             </div>
+
+            <div className="Picture-row">
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy4} alt="Page four of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy5} alt="Page five of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy6} alt="Page six of the privacy policy" loading="lazy" />
+                </div>
+            </div>
+
+            <div className="Picture-row">
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy7} alt="Page seven of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy8} alt="Page eight of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy9} alt="Page nine of the privacy policy" loading="lazy" />
+                </div>
+            </div>
+
+            <div className="Picture-row">
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy10} alt="Page ten of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy11} alt="Page elleven of the privacy policy" loading="lazy" />
+                </div>
+                <div className="Picture-column">
+                <img src={GreyBackground} alt="Coloured background" />
+                </div>
+                <Footer />
+            </div>
+            </>
+      );
+    }
+    
+    /* return (
+        <div>
+      <header >
+        <Navbar />
+        </header>
+        <div className="Privacy-policy-row">
+                <img src={PrivacyPolicy1} alt="Page one of the privacy policy" />
+                <img src={PrivacyPolicy2} alt="Page two of the privacy policy" />
             </div> 
             <div className="Privacy-policy-column">
             <div className="Privacy-policy-row">    
-                <img src={PrivacyPolicy3} alt="PrivacyPolicy3" />
-                <img src={PrivacyPolicy4} alt="PrivacyPolicy4" />
+                <img src={PrivacyPolicy3} alt="Page three of the privacy policy" />
+                <img src={PrivacyPolicy4} alt="Page one of the privacy policy" />
             </div>   
             </div> 
             <div className="Privacy-policy-column">  
             <div className="Privacy-policy-row">    
-                <img src={PrivacyPolicy5} alt="PrivacyPolicy5" />
-                <img src={PrivacyPolicy6} alt="PrivacyPolicy6" />
+                <img src={PrivacyPolicy5} alt="Page four of the privacy policy" />
+                <img src={PrivacyPolicy6} alt="Page five of the privacy policy" />
             </div> 
             </div> 
             <div className="Privacy-policy-column">
             <div className="Privacy-policy-row">    
-                <img src={PrivacyPolicy7} alt="PrivacyPolicy7" />
-                <img src={PrivacyPolicy8} alt="PrivacyPolicy8" />
+                <img src={PrivacyPolicy7} alt="Page six of the privacy policy" />
+                <img src={PrivacyPolicy8} alt="Page seven of the privacy policy" />
             </div>
             </div> 
                 <div className="Privacy-policy-column">
             <div className="Privacy-policy-row">     
-                <img src={PrivacyPolicy9} alt="PrivacyPolicy9" />
-                <img src={PrivacyPolicy10} alt="PrivacyPolicy10" />
+                <img src={PrivacyPolicy9} alt="Page eight of the privacy policy" />
+                <img src={PrivacyPolicy10} alt="Page nine of the privacy policy" />
             </div> 
             </div> 
             <div className="Privacy-policy-column">
             <div className="Privacy-policy-row">     
-                <img src={PrivacyPolicy11} alt="PrivacyPolicy11" />
-                <img src={PrivacyPolicy12} alt="PrivacyPolicy12" />
+                <img src={PrivacyPolicy11} alt="Page ten of the privacy policy" />
+                <img src={PrivacyPolicy12} alt="Page elleven of the privacy policy" />
             </div>  
             </div> 
         </div>
     );
-}
+} */
 

@@ -5,6 +5,7 @@ import ContactImg from '../assets/images/Contact/contact-us-graphic.jpg'
 import PacPic from '../assets/images/Contact/pacman_PNG66.png'
 import Footer from '../components/Footer';
 import MailTo from './MailTo';
+import ContactUs from '../assets/images/Contact/2489630.jpg'
 
 let source = "https://www.linkedin.com/in/alexander-stub-michelsen-2a6a301a4/"
 
@@ -17,29 +18,11 @@ export default function ContactPage() {
         <Navbar />
         </header>
         <div className='ContactInfo'>
-          <ul className='ContactInfo-Schema'>
-              <li>
-              <h4>Alexander Stub Michelsen</h4>
-              </li>
-              <li>
-              <h4>Mathilde Parken 23, 2. MF.</h4>
-              </li>
-              <li>
-              <h4>3400 Hillerød, DK</h4>
-              </li>
-              <li>
-              <h4>AlexanderStubMichelsen@gmail.com<a href="mailto:AlexanderStubMichelsen@gmail.com">&nbsp;&nbsp;Send Email</a></h4>
-              </li>
-              <li>
-              <h4>004528919844</h4>
-              </li>
-              <li>
-              <a href={source}><p>LinkedIn</p></a>
-              </li>
-
-          </ul>
-          <img src={ContactImg} alt="ContactImg" loading=" lazy" /> 
-          <img src={PacPic} alt="ContactImg" loading=" lazy" />                
+          <div className='ContactInfo-Schema'>
+          <img src={ContactUs} alt="ContactImg" loading=" lazy" /> 
+          {/* <img src={ContactUs} alt="ContactImg" loading=" lazy" />  */}
+          {/* <img src={PacPic} alt="ContactImg" loading=" lazy" />           */}      
+        </div>
         </div>
         <Footer />
         </div>

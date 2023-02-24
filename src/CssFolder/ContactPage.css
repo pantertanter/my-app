@@ -21,15 +21,22 @@
     color:chartreuse;
 }
 
+.ContactInfo-Schema img {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
 li {
     color:chartreuse;
 }
 
 img {
-    width: 49%;
+    width: 50%;
     height: 100%;
-    margin: 10px;
-    
+    border: 5px solid white;
+    justify-content: left;
+/*     margin: 10px;
+ */    
 }
 
 p {

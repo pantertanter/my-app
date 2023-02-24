@@ -19,7 +19,6 @@ function App() {
         <CatFacts />
         <ImageRnd />
         <EmbeddedVideo />
-
         <Picture />
         <ImageRnd />
         <Picture2 />

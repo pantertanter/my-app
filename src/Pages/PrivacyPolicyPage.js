@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import '../App.css';
 import GreyBackground from '../assets/images/Products/Grey_Background.png'
+import { useEffect, useState } from "react";
 
 
 
@@ -21,7 +22,27 @@ import PrivacyPolicy12 from '../assets/images/PrivacyPolicy/12.jpg'
 import Footer from '../components/Footer';
 
 export default function PrivacyPolicy() {
-
+    
+        // The back-to-top button is hidden at the beginning
+        const [showButton, setShowButton] = useState(false);
+      
+        useEffect(() => {
+          window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 300) {
+              setShowButton(true);
+            } else {
+              setShowButton(false);
+            }
+          });
+        }, []);
+      
+        // This function will scroll the window to the top 
+        const scrollToTop = () => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // for smoothly scrolling
+          });
+        };
 
 
     return (
@@ -74,8 +95,13 @@ export default function PrivacyPolicy() {
                 <div className="Picture-column">
                     <img src={PrivacyPolicy11} alt="Page elleven of the privacy policy" loading="lazy" />
                 </div>
-                <div className="Picture-column">
-                <img src={GreyBackground} alt="Coloured background" />
+                <div className="Picture-column, Return">
+                {showButton && (
+        <button onClick={scrollToTop}>
+          back to top
+        </button>
+      )}
+      {/* &#8679; is used to create the upward arrow */}
                 </div>
                 <Footer />
             </div>

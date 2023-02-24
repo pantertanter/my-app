@@ -17,6 +17,13 @@
 
 }
 
+.navbar-logo img {
+/*     border-style: none;
+ */    width: 100%;
+    border: 5px solid white;
+    margin-right: 40px;
+}
+
 .navbar-menu {
     background-color: #cb9825;
     text-align: left;

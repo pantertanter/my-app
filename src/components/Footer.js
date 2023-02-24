@@ -20,13 +20,13 @@ export default function Footer() {
               <h5>3400 Hillerød, DK</h5>
               </li>
               <li>
-              <h5>AlexanderStubMichelsen@gmail.com</h5>
-              </li>
-              <li>
               <h5>004528919844</h5>
               </li>
               <li>
               <a href={source}><h5 className="LinkedIn">LinkedIn</h5></a>
+              </li>
+              <li>
+              <h5>AlexanderStubMichelsen@gmail.com &nbsp;:&nbsp;  <a href="mailto:AlexanderStubMichelsen@gmail.com">Send Email</a></h5>
               </li>
 
           </ul>

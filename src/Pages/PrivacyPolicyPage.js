@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
         <>
         <div>
       <header >
-        <Navbar />
+        {/* <Navbar /> */}
         </header>
         </div>
             <div className="Picture-row">
@@ -103,7 +103,7 @@ export default function PrivacyPolicy() {
       )}
       {/* &#8679; is used to create the upward arrow */}
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
             </>
       );

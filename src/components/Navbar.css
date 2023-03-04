@@ -36,6 +36,16 @@
     color:chartreuse;
 }
 
+.navbar-menu button {
+    background-color: #cb9825;
+    border: 0;
+    text-align: left;
+    justify-content: left;
+    font-size: 25px;
+    color:chartreuse;
+    height: 60px;
+}
+
 .navbar-menu li {
     color:chartreuse;
 }

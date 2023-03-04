@@ -9,6 +9,7 @@ import { Picture2 } from './components/Picture';
 import EmbeddedGame from './components/EmbeddedGame';
 import EmbeddedVideo from './components/EmbeddedVideo';
 import Footer from './components/Footer';
+import PrivacyPolicy from './Pages/PrivacyPolicyPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
+        <button onClick={()=> window.scrollTo(0, 3500)}><p>To privacy policy</p></button> 
         <CatFacts />
         <ImageRnd />
         <EmbeddedVideo />
@@ -23,6 +25,7 @@ function App() {
         <ImageRnd />
         <Picture2 />
         <ImageRnd />
+        <PrivacyPolicy />
         <Footer />
       </header>
     </div>

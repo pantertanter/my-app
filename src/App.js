@@ -17,7 +17,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
-        <button onClick={()=> window.scrollTo(0, 3500)}><p>To privacy policy</p></button> 
+        <ul className='Translate'>
+          <li>
+          <button onClick={()=> window.scrollTo(0, 3500)}><p>To privacy policy</p></button> 
+          </li>
+        </ul>
         <CatFacts />
         <ImageRnd />
         <EmbeddedVideo />

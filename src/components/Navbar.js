@@ -15,7 +15,8 @@ function Navbar() {
             {/* //TODO Make Links work from outside */}
             {/* <li><button onClick={()=> window.scrollTo(0, 3400)}><p>To privacy policy</p></button></li>  */}
             <li><Link to="/contactPage"><p>Contact</p></Link></li>
-        </ul>
+{/*             <li><button onClick={()=> window.scrollTo(0, 3500)}><p>To privacy policy</p></button></li> 
+ */}        </ul>
         <div className='navbar-logo'>
             <img src={ require('../assets/images/Logo/Logo.jpg') } alt="Logo for Alexander Stub Michelsen" />
         </div>

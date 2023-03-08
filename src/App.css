@@ -33,8 +33,13 @@
   color:chartreuse;
   border: 0;
   text-align: left;
-  padding-right: ;
 }
+
+.Translate {
+  padding-top: 20px;
+  transform: translatex(-306%);
+/*   transform: translateY(100%);
+ */}
 
 .App-header button {
   background-color: #cb9825;
@@ -42,8 +47,6 @@
   border: 0;
   text-align: left;
 }
-
-
 
 .App-link {
   color: #61dafb;

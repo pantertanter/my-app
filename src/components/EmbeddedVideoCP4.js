@@ -12,7 +12,7 @@ const EmbeddedVideoCP4 = () => {
             <img src={GreyBackground} alt="Suave background" />         
             </div>
             <div className="Picture-column">
-            <video src={Hall} muted autoplay="true" />    
+            <video src={Hall} muted autoplay="true" loop/>    
             </div>
             <div className="Picture-column">
             <img src={GreyBackground} alt="Suave background" />

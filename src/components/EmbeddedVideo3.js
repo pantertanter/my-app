@@ -9,10 +9,10 @@ const EmbeddedVideo3 = () => {
     return (
         <div className="Picture-row">
             <div className="Picture-column">
-            <img src={GreyBackground} alt="Suave background" />         
+            <img src={GreyBackground} alt="Suave background"/>         
             </div>
             <div className="Picture-column">
-            <video src={Skate} muted autoplay="true" />    
+            <video src={Skate} muted autoplay="true" loop/>    
             </div>
             <div className="Picture-column">
             <img src={GreyBackground} alt="Suave background" />

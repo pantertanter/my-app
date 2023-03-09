@@ -15,7 +15,7 @@ const EmbeddedVideoCP6 = () => {
             <img src={GreyBackground} alt="Suave background" />
             </div>
             <div className="Picture-column">
-            <video src={Mix} muted autoplay="true" />    
+            <video src={Mix} muted autoplay="true" loop/>    
             </div>
         </div>
     );

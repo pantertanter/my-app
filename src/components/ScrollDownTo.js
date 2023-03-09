@@ -1,11 +1,11 @@
 import React from "react"
 import '../App.css'
 import Scale from '../assets/images/PrivacyPolicy/kisspng-old-fashioned-weighing-scale-weight-metal-libra-5a81af2ee111b6.1798102015184484309219.jpg'
+import { useEffect, useState } from "react";
 
-
-
-export default function ScrollTo() {
+export default function ScrollDownTo() {
     return (
+        <>
         <div className="App">
             <div className="Scales">
           <button onClick={()=> window.scrollTo(0, 5100)}><p>To privacy policy</p></button> 
@@ -15,5 +15,6 @@ export default function ScrollTo() {
             </div> */}
            </div>
           </div>
+          </>
     )
 }

@@ -90,20 +90,14 @@ export default function PrivacyPolicy() {
 
             <div className="Picture-row">
                 <div className="Picture-column">
-                    <img src={PrivacyPolicy10} alt="Page ten of the privacy policy" loading="lazy" />
+                    <img src={PrivacyPolicy10} alt="Page seven of the privacy policy" loading="lazy" />
                 </div>
                 <div className="Picture-column">
-                    <img src={PrivacyPolicy11} alt="Page elleven of the privacy policy" loading="lazy" />
+                    <img src={PrivacyPolicy11} alt="Page eight of the privacy policy" loading="lazy" />
                 </div>
-                <div className="Picture-column, Return">
-                {showButton && (
-        <button onClick={scrollToTop}>
-          back to top
-        </button>
-      )}
-      {/* &#8679; is used to create the upward arrow */}
+                <div className="Picture-column">
+                    <img src={PrivacyPolicy12} alt="Page nine of the privacy policy" loading="lazy" />
                 </div>
-                {/* <Footer /> */}
             </div>
             </>
       );

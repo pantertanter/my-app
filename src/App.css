@@ -85,6 +85,8 @@
   padding-left: 20px;
   border-style: none;
   border: #ffffff;
+  font-family: 'Rubik';
+  font-size: 17sp;
 }
 
 .Picture-column {
@@ -93,22 +95,24 @@
   padding: 0 4px;
   border-style: none;
   border: #ffffff;
+  font-family: 'Rubik';
+  font-size: 17sp;
 }
 
-.Return button {
+/* .Return button {
   background-image: url("./assets/images/Products/Grey_Background.png");
   border-style: solid;
   border: none white;
   color: chartreuse;
-  /* transform: translateX(50px);
-  transform: translateY(-100px); */
+  transform: translateX(50px);
+  transform: translateY(-100px); 
   top: 90%;
   left: 90%;
   text-align: center;
   float: left;
   height: 81.8%;
   width: 356%;
-}
+} */
 
 #myBtn {
   display: none;
@@ -138,6 +142,20 @@
 .Picture-column video {
   max-width: 95.5%;
   height: auto;
+}
+
+.Picture-column button {
+  width: 91.2%;
+  background-color: #cb9825;
+  height: 100%;
+  border: none;
+  color: chartreuse;
+  font-size: 17sp;
+}
+
+.Picture-column p {
+  color: chartreuse;
+  font-size: 17sp;
 }
 
 p {

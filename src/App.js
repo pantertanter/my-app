@@ -10,10 +10,11 @@ import EmbeddedGame from './components/EmbeddedGame';
 import EmbeddedVideo from './components/EmbeddedVideo';
 import Footer from './components/Footer';
 import PrivacyPolicy from './Pages/PrivacyPolicyPage';
-import ScrollTo from './components/ScrollTo';
+import ScrollUpTop from './components/ScrollUpTop';
 import EmbeddedVideo3 from './components/EmbeddedVideo3';
 import EmbeddedVideo5 from './components/EmbeddedVideo5';
 import Spacer from './components/Spacer';
+import ScrollDownTo from './components/ScrollDownTo';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       
         <Navbar />
         <CatFacts />
-        <ScrollTo />
+        <ScrollDownTo />
         <EmbeddedVideo />
         <ImageRnd />
         <Picture />
@@ -32,6 +33,7 @@ function App() {
         <EmbeddedVideo5 />
         <Spacer />
         <PrivacyPolicy />
+        <ScrollUpTop />
         <Footer />
       
     </div>

@@ -8,7 +8,7 @@ export default function ScrollTo() {
     return (
         <div className="App">
             <div className="Scales">
-          <button onClick={()=> window.scrollTo(0, 5000)}><p>To privacy policy</p></button> 
+          <button onClick={()=> window.scrollTo(0, 5100)}><p>To privacy policy</p></button> 
           <img src={Scale} alt="Image of a scale(Symbolizing the law)" loading="lazy" />     
             {/* <div className="spacer">
                 <h1>&nbsp;wsadsd</h1>

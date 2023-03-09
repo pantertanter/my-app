@@ -13,6 +13,7 @@ import PrivacyPolicy from './Pages/PrivacyPolicyPage';
 import ScrollTo from './components/ScrollTo';
 import EmbeddedVideo3 from './components/EmbeddedVideo3';
 import EmbeddedVideo5 from './components/EmbeddedVideo5';
+import Spacer from './components/Spacer';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <ImageRnd />
         <Picture2 />
         <EmbeddedVideo5 />
-        <ImageRnd />
+        <Spacer />
         <PrivacyPolicy />
         <Footer />
       

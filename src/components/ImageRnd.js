@@ -1,5 +1,6 @@
 import React from "react";
 import ImageRndRnd from "./ImageRndRnd";
+import '../App.css'
 
 export default function ImageRnd() {
 var num = Math.floor(Math.random() * 1000);

@@ -1,12 +1,16 @@
 .navbar {
     padding: 20px;
+  /*   margin-left: 20px;
+    margin-right: 20px; */
     background-color:#cb9825;
     width:100%;
-    border-bottom: solid;
+    /* border-bottom: solid;
     border-width: 100px;
-    border-color: #887636;
+    border-color: #887636; */
+    
     font-family: 'Rubik';
-    font-size: 25sp;
+    font-size: 10sp;
+    
 }
 
 .navbar-logo {
@@ -18,8 +22,8 @@
 
 .navbar-logo img {
 /*     border-style: none;
- */    width: 100%;
-    border: 5px solid white;
+ */    width: 100px;
+    border: none;
     margin-right: 40px;
 }
 
@@ -27,7 +31,7 @@
     background-color: #cb9825;
     text-align: left;
     justify-content: left;
-    font-size: 25px;
+    font-size:17px;
     /* font-weight: bold; */
     width: 50%;
     height: 100%;

@@ -5,24 +5,29 @@
     height: 100%;
     text-align: left;
     border-style: none;
-    font-size: 25px;
     font-family: 'Rubik';
-    font-size: 20sp;
+    font-size: 17sp;
 }
 
 .normal-cat-div h4 {
     color: chartreuse;
+    font-family: 'Rubik';
+    font-size: 17sp;
 }
 
 .normal-cat-div p {
     color: #7fff00;
+    font-family: 'Rubik';
+    font-size: 10sp;
 }
 
 .normal-cat-div li {
     color: chartreuse;
+    font-family: 'Rubik';
+    font-size: 10sp;
 }
 
 .text123 {
     font-family: 'Rubik';
-    font-size: 20sp;
+    font-size: 10sp;
 }

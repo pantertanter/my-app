@@ -22,7 +22,7 @@ export default function CatFacts() {
   return (
     <div className="normal-cat-div">
       <ul>
-      <li><h4 className="text123">{"Fact about cat"}</h4></li>
+      <li><p className="text123">{"Facts about cats"}</p></li>
       <li><p className="text123">{post.fact}</p></li>
       </ul>
     </div>

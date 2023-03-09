@@ -10,28 +10,29 @@ import EmbeddedGame from './components/EmbeddedGame';
 import EmbeddedVideo from './components/EmbeddedVideo';
 import Footer from './components/Footer';
 import PrivacyPolicy from './Pages/PrivacyPolicyPage';
+import ScrollTo from './components/ScrollTo';
+import EmbeddedVideo3 from './components/EmbeddedVideo3';
+import EmbeddedVideo5 from './components/EmbeddedVideo5';
 
 function App() {
   return (
 
     <div className="App">
-      <header className="App-header">
+      
         <Navbar />
-        <ul className='Translate'>
-          <li>
-          <button onClick={()=> window.scrollTo(0, 3500)}><p>To privacy policy</p></button> 
-          </li>
-        </ul>
         <CatFacts />
-        <ImageRnd />
+        <ScrollTo />
         <EmbeddedVideo />
+        <ImageRnd />
         <Picture />
+        <EmbeddedVideo3 />
         <ImageRnd />
         <Picture2 />
+        <EmbeddedVideo5 />
         <ImageRnd />
         <PrivacyPolicy />
         <Footer />
-      </header>
+      
     </div>
   );
 }

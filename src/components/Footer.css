@@ -2,10 +2,29 @@
 background-color: #cb9825;
 text-align: left;
 justify-content: left;
-font-size: 25px;
+padding: 20px;
+font-size: 17ps;
 /* font-weight: bold; */
 width: 50%;
 height: 100%;
 border-right: 5px solid white;
 color:chartreuse;
+font-family: 'Rubik';
 }
+
+.Translate {
+    background-color: #cb9825;
+    border: none;
+    padding: 20px;
+    padding-left: 55px;
+    transform: translateX(-44.1%);
+    font-family: 'Rubik';
+    font-size:17sp;
+    width: 100%;
+  /*   transform: translateY(100%);
+   */}
+
+   h5 {
+    font-size: 17sp;
+    font-family: 'Rubik';
+   }

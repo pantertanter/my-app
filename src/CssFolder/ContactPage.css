@@ -2,11 +2,8 @@
     padding: 20px;
     background-color:#cb9825;
     width:100%;
-    border-style: solid;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    border-style: none;
+    padding: 20px;
     border-color: rgb(255, 255, 255);
 }
 
@@ -22,7 +19,7 @@
 }
 
 .ContactInfo-Schema img {
-    border-style: solid;
+    border-style: none;
     border-color: rgb(255, 255, 255);
 }
 

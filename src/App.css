@@ -36,8 +36,11 @@
 }
 
 .Translate {
-  padding-top: 20px;
-  transform: translatex(-306%);
+  padding: 20px;
+/*   transform: translatex(-303%);
+ */  font-family: 'Rubik';
+    font-size: 25sp;
+    width: 100%;
 /*   transform: translateY(100%);
  */}
 
@@ -105,6 +108,11 @@
   border-style: solid;
   border: #ffffff;
   padding-bottom: 100px;
+}
+
+p {
+  font-family: 'Rubik';
+  font-size: 20sp;
 }
 
 .Picture-column video {

@@ -4,11 +4,9 @@
     width:100%;
     border-bottom: solid;
     border-width: 50px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
     border-color: #988bb5;
+    font-family: 'Rubik';
+    font-size: 25sp;
 }
 
 .navbar-logo {

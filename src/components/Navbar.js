@@ -15,7 +15,7 @@ function Navbar() {
             <li><Link to="/contactPage"><p>Contact</p></Link></li>
         </ul>
         <div className='navbar-logo'>
-            <img src={ require('../assets/images/Logo/Logo.jpg') } alt="Logo for Alexander Stub Michelsen" />
+            <img src={ require('../assets/images/Logo/logo.png') } alt="Logo for Alexander Stub Michelsen" />
         </div>
         </div>
     )

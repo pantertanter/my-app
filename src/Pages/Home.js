@@ -19,19 +19,31 @@ function Home() {
     //TODO LOOK INTO BABYLON
       <>
         <Navbar />
+        <Spacer />
         <CatFacts />
+        <Spacer />
         <ScrollDownTo />
+        <Spacer />
         <EmbeddedVideo1 />
+        <Spacer />
         <Picture1 />
+        <Spacer />
         <ImageRnd />
+        <Spacer />
         <EmbeddedVideo2 />
+        <Spacer />
         <Picture2 />
+        <Spacer />
         <ImageRnd />
+        <Spacer />
         <EmbeddedVideo3 />
         <Spacer />
         <PrivacyPolicy />
+        <Spacer />
         <ScrollToTop />
+        <Spacer />
         <Footer />
+        <Spacer />
   </>
   );
 }

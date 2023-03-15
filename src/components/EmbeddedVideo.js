@@ -1,9 +1,9 @@
 import React from 'react';
 import '../Css/EmdVid.css';
-import Astronaut from '../assets/videos/pexels-rodnae-productions-8475052.mp4'
+import Birch from '../assets/videos/pexels-karolina-grabowska-8114994.mp4'
 import Skate from '../assets/videos/pexels-darina-belonogova-7539262.mp4'
 import Peace from '../assets/videos/pexels-kevin-malik-9035713.mp4'
-import TwoGuys from '../assets/videos/pexels-kampus-production-8465759.mp4'
+import YellowFlower from '../assets/videos/pexels-kokokara-7716528.mp4'
 import Hall from '../assets/videos/61c6eeaf-87cf5e18.mp4'
 import BridgeMeet from '../assets/videos/pexels-ana-benet-8242999.mp4'
 
@@ -12,7 +12,7 @@ function EmbeddedVideo1() {
    return (
         <div className="Picture-row">
             <div className="Picture-column">
-            <video src={Astronaut} muted autoplay="true" loop className="rounded"/>  
+            <video src={Birch} muted autoplay="true" loop className="rounded"/>  
             </div>
             <div className="Picture-column">
             </div>
@@ -57,7 +57,7 @@ function EmbeddedVideo1() {
             return (
                 <div className="Picture-row">
                     <div className="Picture-column">
-                    <video src={TwoGuys} muted autoplay="true" loop className="rounded"/>          
+                    <video src={YellowFlower} muted autoplay="true" loop className="rounded"/>          
                     </div>
                     <div className="Picture-column">
                     </div>

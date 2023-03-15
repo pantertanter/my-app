@@ -1,5 +1,5 @@
 import React from "react";
-import '../CssFolder/Spacer.css'
+import '../Css/Spacer.css'
 
 export default function Spacer() {
     return (

@@ -37,7 +37,7 @@
 } */
 
 .Translate {
-  background-color: #cb9825;
+  background-color: #24427e;
   border: none;
   padding: 20px;
   padding-left: 55px;
@@ -61,7 +61,7 @@
 
 
 .App-header button {
-  background-color: #cb9825;
+  background-color: #24427e;
   color:chartreuse;
   border: 0;
   text-align: left;
@@ -127,26 +127,26 @@
   color: white;
   cursor: pointer;
   padding: 15px;
-/*   border-radius: 4px;
- */}
-
-.Picture-column img {
-  vertical-align: middle;
-   width: 92%;
- /*   height: 380px;
- *//*   border-style: solid;
- */  border: #ffffff;
-  padding-bottom: 100px;
+  border-radius: 4px;
 }
 
-.Picture-column video {
+  /* .Picture-column img {
+   vertical-align: middle;
+   width: 92%;
+   height: 380px;
+   border-style: solid;
+   border: #ffffff;
+   padding-bottom: 100px;
+ } */
+
+/* .Picture-column video {
   max-width: 95.5%;
   height: auto;
-}
+} */
 
 .Picture-column button {
   width: 91.2%;
-  background-color: #cb9825;
+  background-color: #24427e;
   height: 100%;
   border: none;
   color: chartreuse;
@@ -163,13 +163,13 @@ p {
   font-size: 20sp;
 }
 
-.Picture-column video {
+  /* .Picture-column video {
   vertical-align: middle;
   width: 100%;
   height: 100%;
-  padding: 10px;
-/*   border-style: solid;
- */}
+  padding: 10px; 
+   border-style: solid;
+} */
 
 /* .Picture-column li {
   width: 33%;
@@ -237,15 +237,15 @@ h5 {
   padding: 20px;
 }
 
-.Privacy-policy-column img {
+/* .Privacy-policy-column img {
   margin-top: 8px;
   vertical-align: middle;
   border: #ffffff;
-/*   border-width: 1cm;
- */  width: 100%;
+  border-width: 1cm;
+  width: 100%;
   padding: 20px;
   padding-left: 100px;
-}
+} */
 
 .Scales {
   height: 80px;
@@ -253,22 +253,22 @@ h5 {
 }
 
 .Scales button {
-  background-color: #cb9825;
+  background-color: #24427e;
   border: none;
   float:left;
   padding: 20px;
   padding-left: 30px;
 }
 
-.Scales img {
+/* .Scales img {
   border: none;
   float:left;
   padding: 20px;
   width: 90px;
   height: 80px;
   transform: translateY(-25%);
-/*   scale: 10%;
- */}
+  scale: 10%;
+} */
 
 .Spacer {
   content: none;
@@ -301,7 +301,7 @@ p {
 
 div {
   /* background-image: url('http://www.thinksnaps.com/wp-content/uploads/2014/07/images-background.jpg'); */
-  background-color: #cb9825;
+  background-color: #24427e;
 }
 
 .normal-div {

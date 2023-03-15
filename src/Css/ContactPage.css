@@ -1,6 +1,6 @@
 .ContactInfo {
     padding: 20px;
-    background-color:#cb9825;
+    background-color:#24427e;
     width:100%;
     border-style: none;
     padding: 20px;
@@ -8,7 +8,7 @@
 }
 
 .ContactInfo-Schema {
-    background-color: #cb9825;
+    background-color: #24427e;
     text-align: left;
     justify-content: left;
     font-size: 25px;

@@ -1,6 +1,7 @@
 import React from "react";
-import ImageRndRnd from "./ImageRndRnd";
-import '../App.css'
+import '../Css/ImageRnd.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 export default function ImageRnd() {
 var num = Math.floor(Math.random() * 1000);
@@ -16,13 +17,13 @@ var num2 = Math.floor(Math.random() * 1000);
         <>
             <div className="Picture-row">
                 <div className="Picture-column">
-                    <img src={source} alt="random" loading="lazy" />
+                    <img src={source} alt="random" loading="lazy" className="rounded"/>
                 </div>
                 <div className="Picture-column">
-                    <img src={source1} alt="random" />
+                    <img src={source1} alt="random" loading="lazy" className="rounded"/>
                 </div>
                 <div className="Picture-column">
-                    <img src={source2} alt="random" />
+                    <img src={source2} alt="random" loading="lazy" className="rounded"/>
                 </div>
             </div>
             </>

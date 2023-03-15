@@ -1,0 +1,19 @@
+.Picture-row {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: none;
+    font-family: 'Rubik';
+    font-size: 17sp;
+  }
+  
+  .Picture-column {
+    flex: 33%;
+    max-width: 33%;
+    font-family: 'Rubik';
+    font-size: 17sp;
+  }
+
+  .Picture-column img {
+    width: 100%;
+    border: none;
+  }

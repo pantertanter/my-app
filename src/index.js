@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import PrivacyPolicyPage from "./Pages/PrivacyPolicyPage";
 import ContactPage from "./Pages/ContactPage";
 
 const router = createBrowserRouter([
@@ -14,10 +13,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
   },
-  {
+  /* {
     path: "PrivacyPolicy",
     element: <PrivacyPolicyPage/>,
-  },
+  }, */
   {
     path: "ContactPage",
     element: <ContactPage/>,

@@ -1,33 +1,101 @@
 import React from 'react';
-import '../App.css';
-import GreyBackground from '../assets/images/Products/Grey_Background.png'
+import '../Css/EmdVid.css';
 import Astronaut from '../assets/videos/pexels-rodnae-productions-8475052.mp4'
+import Skate from '../assets/videos/pexels-darina-belonogova-7539262.mp4'
+import Peace from '../assets/videos/pexels-kevin-malik-9035713.mp4'
+import TwoGuys from '../assets/videos/pexels-kampus-production-8465759.mp4'
+import Hall from '../assets/videos/61c6eeaf-87cf5e18.mp4'
+import Mix from '../assets/videos/production ID_4443536.mp4'
 
+function EmbeddedVideo1() {
 
-const EmbeddedVideo = () => {
-    var num = Math.floor(Math.random() * 1000);
-    var num1 = Math.floor(Math.random() * 1000);
-    var num2 = Math.floor(Math.random() * 1000);
+   return (
+        <div className="Picture-row">
+            <div className="Picture-column">
+            <video src={Astronaut} muted autoplay="true" loop className="rounded"/>  
+            </div>
+            <div className="Picture-column">
+            </div>
+            <div className="Picture-column">
+            </div>
+        </div>
+    );
+   }
 
-    let source = "https://picsum.photos/id/" + num + "/500/1000";
-    let source1 = "https://picsum.photos/id/" + num1 + "/1500/1000";
-    let source2 = "https://picsum.photos/id/" + num2 + "/1500/1000";
-  
-  
+   function EmbeddedVideo2() {
 
     return (
         <div className="Picture-row">
             <div className="Picture-column">
-            <video src={Astronaut} muted autoplay="true" loop />  
             </div>
             <div className="Picture-column">
-            <img src={GreyBackground} alt="Suave background" />         
+            <video src={Skate} muted autoplay="true" loop className="rounded"/>    
             </div>
             <div className="Picture-column">
-            <img src={GreyBackground} alt="Suave background" />         
             </div>
         </div>
     );
-}
+    }
 
-export default EmbeddedVideo
+    function EmbeddedVideo3() {
+
+        return (
+            <div className="Picture-row">
+                <div className="Picture-column">    
+                </div>
+                <div className="Picture-column">
+                </div>
+                <div className="Picture-column">
+                <video src={Peace} muted autoplay="true" loop className="rounded"/>         
+                </div>
+            </div>
+        );
+        }
+
+        function EmbeddedVideoCP1() {
+
+            return (
+                <div className="Picture-row">
+                    <div className="Picture-column">
+                    <video src={TwoGuys} muted autoplay="true" loop className="rounded"/>          
+                    </div>
+                    <div className="Picture-column">
+                    </div>
+                    <div className="Picture-column">
+                    </div>
+                </div>
+            );
+            }
+
+            function EmbeddedVideoCP2() {
+
+                return (
+                    <div className="Picture-row">
+                        <div className="Picture-column">
+                        </div>
+                        <div className="Picture-column">
+                        <video src={Hall} muted autoplay="true" loop className="rounded"/>    
+                        </div>
+                        <div className="Picture-column">
+                        </div>
+                    </div>
+                );
+                }
+
+                function EmbeddedVideoCP3() {
+
+                    return (
+                        <div className="Picture-row">
+                            <div className="Picture-column">
+                            </div>
+                            <div className="Picture-column">
+                            </div>
+                            <div className="Picture-column">
+                            <video src={Mix} muted autoplay="true" loop className="rounded"/>    
+                            </div>
+                        </div>
+                    );
+                    }
+
+export { EmbeddedVideo1, EmbeddedVideo2, EmbeddedVideo3, 
+EmbeddedVideoCP1, EmbeddedVideoCP2, EmbeddedVideoCP3 }

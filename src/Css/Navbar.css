@@ -2,7 +2,7 @@
     padding: 20px;
   /*   margin-left: 20px;
     margin-right: 20px; */
-    background-color:#cb9825;
+    background-color:#24427e;
     width:100%;
     /* border-bottom: solid;
     border-width: 100px;
@@ -14,7 +14,7 @@
 }
 
 .navbar-logo {
-    background-color: #cb9825;
+    background-color: #24427e;
     justify-content: right; 
     /* margin-right: 20px; */
 
@@ -28,7 +28,7 @@
 }
 
 .navbar-menu {
-    background-color: #cb9825;
+    background-color: #24427e;
     text-align: left;
     justify-content: left;
     font-size:17px;

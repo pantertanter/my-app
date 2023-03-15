@@ -1,5 +1,6 @@
 import React from "react";
-import GreyBackground from '../assets/images/Products/Grey_Background.png'
+
+//TODO MAKE ROW W. NO COLUMNS FOR WIDTH TO SPAND FULLY
 
 export default function EmbeddedGame() {
 

@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react";
-import '../CssFolder/CatFacts.css'
+import '../Css/CatFacts.css'
 
 const client = axios.create({
   baseURL: "https://catfact.ninja/fact" 

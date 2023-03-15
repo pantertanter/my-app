@@ -1,0 +1,18 @@
+.Scales button {
+    background-color: #24427e;
+    border: none;
+    float:left;
+    padding: 20px;
+    padding-left: 30px;
+  }
+
+.Scales img {
+    background-color: #24427e;
+    border: none;
+    float:left;
+    padding: 20px;
+    width: 90px;
+    height: 80px;
+    transform: translateY(-25%);
+  /*   scale: 10%;
+   */}

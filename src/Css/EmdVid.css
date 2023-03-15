@@ -1,0 +1,31 @@
+.Picture-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-style: none;
+    border: #ffffff;
+    font-family: 'Rubik';
+    font-size: 17sp;
+    background-color: #24427e;
+  }
+  
+  .Picture-column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+    border-style: none;
+    border: #ffffff;
+    font-family: 'Rubik';
+    font-size: 17sp;
+    background-color: #24427e;
+  }
+
+  .Picture-column video {
+    max-width: 95.5%;
+    height: auto;
+    background-color: #24427e;
+
+  }

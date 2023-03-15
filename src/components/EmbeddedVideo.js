@@ -5,7 +5,7 @@ import Skate from '../assets/videos/pexels-darina-belonogova-7539262.mp4'
 import Peace from '../assets/videos/pexels-kevin-malik-9035713.mp4'
 import TwoGuys from '../assets/videos/pexels-kampus-production-8465759.mp4'
 import Hall from '../assets/videos/61c6eeaf-87cf5e18.mp4'
-import Mix from '../assets/videos/production ID_4443536.mp4'
+import BridgeMeet from '../assets/videos/pexels-ana-benet-8242999.mp4'
 
 function EmbeddedVideo1() {
 
@@ -91,7 +91,7 @@ function EmbeddedVideo1() {
                             <div className="Picture-column">
                             </div>
                             <div className="Picture-column">
-                            <video src={Mix} muted autoplay="true" loop className="rounded"/>    
+                            <video src={BridgeMeet} muted autoplay="true" loop className="rounded"/>    
                             </div>
                         </div>
                     );

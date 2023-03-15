@@ -1,12 +1,12 @@
 import React from "react"
-import '../Css/ScrlDwnTo.css'
+import '../Css/Scroll.css'
 import { useEffect, useState } from "react";
 
 export function ScrollDownTo() {
     return (
         <>
             <div className="Scales">
-          <button onClick={()=> window.scrollTo(0, 5000)}><p>To privacy policy for Authentic notes App</p></button> 
+          <button onClick={()=> window.scrollTo(0, 5450)}><p>To privacy policy for Authentic notes App</p></button> 
           </div>
           </>
     )

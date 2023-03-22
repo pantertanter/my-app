@@ -7,6 +7,7 @@ import {
 import "./index.css";
 import App from "./App";
 import ContactPage from "./Pages/ContactPage";
+import { QOD } from"./components/QOD";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "ContactPage",
     element: <ContactPage/>,
+  },
+  {
+    path: "QOD",
+    element: <QOD/>,
   },
 ]);
 

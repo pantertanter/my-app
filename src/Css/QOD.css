@@ -1,0 +1,41 @@
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-style: none;
+    border: #ffffff;
+    font-family: 'Rubik';
+    font-size: 17sp;
+  }
+  
+  .Column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+    border-style: none;
+    border: #ffffff;
+    font-family: 'Rubik';
+    font-size: 17sp;
+  }
+
+  .container {
+    padding: 20px;
+  /*   margin-left: 20px;
+    margin-right: 20px; */
+    background-color:#24427e;
+    width:100%;
+    /* border-bottom: solid;
+    border-width: 100px;
+    border-color: #887636; */
+    
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10sp;
+    height: 100%;
+  }
+
+  .FavQOD {
+    height: 100px;
+  }

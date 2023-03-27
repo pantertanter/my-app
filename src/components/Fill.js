@@ -7,7 +7,6 @@ export default function Fill() {
     return (
         <>
         <div className="Fill">
-        <p> </p>
         </div>
         
         </>

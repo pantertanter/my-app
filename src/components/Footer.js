@@ -16,7 +16,6 @@ export default function Footer() {
               <li>
               <h5><a href="mailto:AlexanderStubMichelsen@gmail.com">Send email</a></h5>
               </li>
-
           </ul>
 </>
 );

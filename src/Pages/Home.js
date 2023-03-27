@@ -11,6 +11,7 @@ import Footer from '../components/Footer';
 import PrivacyPolicy from '../components/PrivacyPolicy';
 import { ScrollToTop, ScrollDownTo }  from '../components/Scroll';
 import Spacer from '../components/Spacer';
+import Fill from '../components/Fill'
 
 function Home() {
   return (
@@ -22,8 +23,6 @@ function Home() {
         <Spacer />
         <CatFacts />
         <Spacer />
-{/*         <ScrollDownTo />
- */}        <Spacer />
         <EmbeddedVideo1 />
         <Spacer />
         <Picture1 />
@@ -38,10 +37,8 @@ function Home() {
         <Spacer />
         <EmbeddedVideo3 />
         <Spacer />
-{/*         <ScrollToTop />
- */}        <Spacer />
         <Footer />
-        <Spacer />
+        <Fill />
   </>
   );
 }

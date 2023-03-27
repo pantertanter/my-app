@@ -5,12 +5,13 @@ import Footer from '../components/Footer';
 import CatFacts from '../components/Cat-Facts';
 import { EmbeddedVideoCP1, EmbeddedVideoCP2, EmbeddedVideoCP3 }  from '../components/EmbeddedVideo';
 import Spacer from '../components/Spacer';
+import Fill from '../components/Fill'
 
 
 export default function ContactPage() {
 
   return (
-    <div>
+    <>
       <header>
         <Navbar />
         <Spacer />
@@ -22,10 +23,10 @@ export default function ContactPage() {
         <EmbeddedVideoCP2 />
         <Spacer />
 {/*         //TODO FIND MORE SUITABLE VIDEO FOR ALL IF POSSIBLE
- */}        <EmbeddedVideoCP3 />
- <Spacer />
-        <Footer />
+ */}    <EmbeddedVideoCP3 />
         <Spacer />
-        </div>
+        <Footer />
+        <Fill />
+        </>
   )
 }

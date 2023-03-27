@@ -44,7 +44,7 @@ export function ScrollToTop() {
               <div className="Picture-column">
               {showButton && (
       <button onClick={scrollToTop}>
-        <p style={{ fontFamily: 'Rubik' }}>
+        <p>
           back to the top of the homepage
           </p>
       </button>  

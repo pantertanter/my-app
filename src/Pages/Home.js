@@ -22,8 +22,8 @@ function Home() {
         <Spacer />
         <CatFacts />
         <Spacer />
-        <ScrollDownTo />
-        <Spacer />
+{/*         <ScrollDownTo />
+ */}        <Spacer />
         <EmbeddedVideo1 />
         <Spacer />
         <Picture1 />
@@ -38,10 +38,8 @@ function Home() {
         <Spacer />
         <EmbeddedVideo3 />
         <Spacer />
-        <PrivacyPolicy />
-        <Spacer />
-        <ScrollToTop />
-        <Spacer />
+{/*         <ScrollToTop />
+ */}        <Spacer />
         <Footer />
         <Spacer />
   </>

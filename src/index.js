@@ -22,10 +22,10 @@ const router = createBrowserRouter([
     path: "ContactPage",
     element: <ContactPage/>,
   },
-  {
+  /* {
     path: "QOD",
     element: <QOD/>,
-  },
+  }, */
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

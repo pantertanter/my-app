@@ -8,10 +8,9 @@ import Navbar from '../components/Navbar';
 import { Picture1, Picture2 } from '../components/Picture';
 import { EmbeddedVideo1, EmbeddedVideo2, EmbeddedVideo3 }  from '../components/EmbeddedVideo';
 import Footer from '../components/Footer';
-import PrivacyPolicy from '../components/PrivacyPolicy';
-import { ScrollToTop, ScrollDownTo }  from '../components/Scroll';
 import Spacer from '../components/Spacer';
 import Fill from '../components/Fill'
+import LoginForm from '../components/LoginForm.js';
 
 function Home() {
   return (
@@ -22,6 +21,8 @@ function Home() {
         <Navbar />
         <Spacer />
         <CatFacts />
+        {/* <Spacer />
+        <LoginForm /> */}
         <Spacer />
         <EmbeddedVideo1 />
         <Spacer />

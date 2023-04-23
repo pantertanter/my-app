@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import React, {Component} from 'react';
 
 export class QOD extends Component{

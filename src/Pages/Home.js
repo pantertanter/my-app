@@ -24,19 +24,19 @@ function Home() {
         {/* <Spacer />
         <LoginForm /> */}
         <Spacer />
-        <EmbeddedVideo1 />
+        {/* <EmbeddedVideo1 /> */}
         <Spacer />
         <Picture1 />
         <Spacer />
         <ImageRnd />
         <Spacer />
-        <EmbeddedVideo2 />
+        {/* <EmbeddedVideo2 /> */}
         <Spacer />
         <Picture2 />
         <Spacer />
         <ImageRnd />
         <Spacer />
-        <EmbeddedVideo3 />
+        {/* <EmbeddedVideo3 /> */}
         <Spacer />
         <Footer />
         <Fill />

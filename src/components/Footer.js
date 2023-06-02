@@ -9,14 +9,16 @@ export default function Footer() {
 
     return (
         <>
-          <ul className='ContactInfo'>
+        
+          <ul>
               <li>
-              <a href={source}><h5 className="LinkedIn">Linked in</h5></a>
+              <a href={source}><h5>Linked in</h5></a>
               </li>
               <li>
               <h5><a href="mailto:AlexanderStubMichelsen@gmail.com">Send email</a></h5>
               </li>
           </ul>
+        
 </>
 );
 

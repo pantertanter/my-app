@@ -1,10 +1,32 @@
 .ContactInfo {
-  background-color: #24427e;
-font-size: 17sp;
-margin-left: 20px;
-/* font-weight: bold; */
-/* border-right: 5px solid white;
- */color:chartreuse;
- font-family:'Times New Roman', Times, serif;
-    text-decoration: none;
+  background-color: black;
+  font-size: 17sp;
+  margin-left: 20px;
+  /* font-weight: bold; */
+  /* border-right: 5px solid white;
+  */color:chartreuse;
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+div {
+  background-color: black;
+}
+
+ul {
+  background-color: black;
+}
+
+li {
+  background-color: black;
+}
+
+a {
+  background-color: black;
+
+}
+
+h5 {
+  background-color: black;
+
 }

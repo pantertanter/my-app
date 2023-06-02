@@ -18,12 +18,12 @@ export default function ContactPage() {
         <CatFacts />
         </header>
         <Spacer />
-        <EmbeddedVideoCP1 />
+        {/* <EmbeddedVideoCP1 /> */}
         <Spacer />
-        <EmbeddedVideoCP2 />
+        {/* <EmbeddedVideoCP2 /> */}
         <Spacer />
-{/*         //TODO FIND MORE SUITABLE VIDEO FOR ALL IF POSSIBLE
- */}    <EmbeddedVideoCP3 />
+{/*         //TODO FIND MORE SUITABLE VIDEO FOR ALL IF POSSIBLE */}  
+        {/* <EmbeddedVideoCP3 /> */}
         <Spacer />
         <Footer />
         <Fill />

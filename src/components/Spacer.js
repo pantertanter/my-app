@@ -7,7 +7,6 @@ export default function Spacer() {
     return (
         <>
         <div className="Spacer">
-        <hr/>
         </div>
         
         </>

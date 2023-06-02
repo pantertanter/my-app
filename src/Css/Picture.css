@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     border-style: solid;
-    border: 5px solid white;
+    /* border: 5px solid white; */
     font-family: 'Rubik';
     font-size: 17sp;
   }
@@ -12,13 +12,13 @@
     max-width: 33%;
     font-family: 'Rubik';
     font-size: 17sp;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 
   }
 
   .Picture-column img {
     width: 100%;
     border: none;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 
   }

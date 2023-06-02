@@ -10,12 +10,12 @@ export default function Footer() {
     return (
         <>
         
-          <ul>
-              <li>
-              <a href={source}><h5>Linked in</h5></a>
+          <ul className="text">
+              <li className="text">
+              <a className="text" href={source}><h5>Linked in</h5></a>
               </li>
-              <li>
-              <h5><a href="mailto:AlexanderStubMichelsen@gmail.com">Send email</a></h5>
+              <li className="text">
+              <h5><a className="text" href="mailto:AlexanderStubMichelsen@gmail.com">Send email</a></h5>
               </li>
           </ul>
         

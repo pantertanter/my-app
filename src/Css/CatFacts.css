@@ -11,19 +11,19 @@
 }
 
 .normal-cat-div h4 {
-    color: chartreuse;
+    color: white;
     font-family: 'Rubik';
     font-size: 17sp;
 }
 
 .normal-cat-div p {
-    color: #7fff00;
+    color: white;
     font-family: 'Rubik';
     font-size: 10sp;
 }
 
 .normal-cat-div li {
-    color: chartreuse;
+    color: white;
     font-family: 'Rubik';
     font-size: 10sp;
 }

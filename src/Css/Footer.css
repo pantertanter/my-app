@@ -2,31 +2,32 @@
   background-color: black;
   font-size: 17sp;
   margin-left: 20px;
-  /* font-weight: bold; */
-  /* border-right: 5px solid white;
-  */color:chartreuse;
+  color:white;
   font-family:'Times New Roman', Times, serif;
   text-decoration: none;
 }
 
 div {
   background-color: black;
+  color:white;
 }
 
 ul {
   background-color: black;
+  color:white;
 }
 
 li {
   background-color: black;
+  color:white;
 }
 
 a {
   background-color: black;
-
+  color:white;
 }
 
 h5 {
   background-color: black;
-
+  color:white;
 }

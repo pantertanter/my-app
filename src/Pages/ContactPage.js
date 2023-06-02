@@ -3,7 +3,7 @@ import '../Css/ContactPage.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import CatFacts from '../components/Cat-Facts';
-import { EmbeddedVideoCP1, EmbeddedVideoCP2, EmbeddedVideoCP3 }  from '../components/EmbeddedVideo';
+// import { EmbeddedVideoCP1, EmbeddedVideoCP2, EmbeddedVideoCP3 }  from '../components/EmbeddedVideo';
 import Spacer from '../components/Spacer';
 import Fill from '../components/Fill'
 

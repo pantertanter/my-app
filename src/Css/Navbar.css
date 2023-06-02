@@ -46,20 +46,20 @@
     text-align: left;
     justify-content: left;
     font-size:17sp;
-    color:chartreuse;
+    color:white;
     height: 60px;
 }
 
 .navbar-menu li {
-    color:chartreuse;
+    color:white;
 }
 
 .navbar-menu li {
-    color:chartreuse;
+    color:white;
 }
 
 .navbar-menu p {
-    color: chartreuse;
+    color: white;
     text-decoration: none;
 }
 a:link {

@@ -6,7 +6,7 @@ import CatFacts from '../components/Cat-Facts'
 import ImageRnd from '../components/ImageRnd'
 import Navbar from '../components/Navbar';
 import { Picture1, Picture2 } from '../components/Picture';
-import { EmbeddedVideo1, EmbeddedVideo2, EmbeddedVideo3 }  from '../components/EmbeddedVideo';
+// import { EmbeddedVideo1, EmbeddedVideo2, EmbeddedVideo3 }  from '../components/EmbeddedVideo';
 import Footer from '../components/Footer';
 import Spacer from '../components/Spacer';
 import Fill from '../components/Fill'

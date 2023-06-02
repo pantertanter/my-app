@@ -12,10 +12,10 @@ export default function Footer() {
         
           <ul className="text">
               <li className="text">
-              <a className="text" href={source}><h5>Linked in</h5></a>
+              <a className="text" href={source}><h5 className="text">Linked in</h5></a>
               </li>
               <li className="text">
-              <h5><a className="text" href="mailto:AlexanderStubMichelsen@gmail.com">Send email</a></h5>
+              <h5 className="text"><a className="text" href="mailto:AlexanderStubMichelsen@gmail.com">Send email</a></h5>
               </li>
           </ul>
         

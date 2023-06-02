@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import CatFacts from '../components/Cat-Facts'
+import CatFactComponent from '../components/CatComponent'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Spacer from '../components/Spacer';
@@ -16,7 +16,7 @@ function Home() {
       <>
         <Navbar />
         <Spacer />
-        <CatFacts />
+        <CatFactComponent />
         <Spacer />
         <Spacer />
         <RandomImageRow />

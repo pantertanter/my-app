@@ -1,30 +1,31 @@
-import axios from "axios";
-import React from "react";
-import '../Css/CatFacts.css'
+import { useState, useEffect } from 'react';
 
-const client = axios.create({
-  baseURL: "https://catfact.ninja/fact" 
-});
+const useCatFacts = () => {
+  const [fact, setFact] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-export default function CatFacts() {
-  const [post, setPost] = React.useState(null);
+  useEffect(() => {
+    const fetchCatFact = async () => {
+      try {
+        const response = await fetch('https://catfact.ninja/fact');
+        const data = await response.json();
+        setFact(data.fact);
+        setLoading(false);
+      } catch (error) {
+        setError(error);
+        setLoading(false);
+      }
+    };
 
-  React.useEffect(() => {
-    async function getPost() {
-      const response = await client.get();
-      setPost(response.data);
-    }
-    getPost();
+    const interval = setInterval(fetchCatFact, 5000); // Fetch new cat fact every 5 seconds
+
+    fetchCatFact(); // Fetch initial cat fact on component mount
+
+    return () => clearInterval(interval); // Clean up the interval on component unmount
   }, []);
 
-  if (!post) return "Reload the page"
+  return { fact, loading, error };
+};
 
-  return (
-    <div className="normal-cat-div">
-      <ul>
-      <li><p className="text123">{"Facts about cats"}</p></li>
-      <li><p className="text123">{post.fact}</p></li>
-      </ul>
-    </div>
-  );
-}
+export default useCatFacts;

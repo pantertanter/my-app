@@ -2,11 +2,10 @@ import React from 'react'
 import '../Css/ContactPage.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import CatFacts from '../components/Cat-Facts';
-// import { EmbeddedVideoCP1, EmbeddedVideoCP2, EmbeddedVideoCP3 }  from '../components/EmbeddedVideo';
+import CatFactComponent from '../components/CatComponent'
 import Spacer from '../components/Spacer';
 import Fill from '../components/Fill'
-
+import RandomImageRow from '../components/RandomImageRow';
 
 export default function ContactPage() {
 
@@ -15,15 +14,17 @@ export default function ContactPage() {
       <header>
         <Navbar />
         <Spacer />
-        <CatFacts />
+        <CatFactComponent />
         </header>
         <Spacer />
-        {/* <EmbeddedVideoCP1 /> */}
         <Spacer />
-        {/* <EmbeddedVideoCP2 /> */}
+        <RandomImageRow />
         <Spacer />
-{/*         //TODO FIND MORE SUITABLE VIDEO FOR ALL IF POSSIBLE */}  
-        {/* <EmbeddedVideoCP3 /> */}
+        <RandomImageRow />
+        <Spacer />
+        <Spacer />
+        <RandomImageRow />
+        <Spacer />
         <Spacer />
         <Footer />
         <Fill />

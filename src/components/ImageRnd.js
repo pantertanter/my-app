@@ -12,7 +12,6 @@ var num2 = Math.floor(Math.random() * 1000);
     let source1 = "https://picsum.photos/id/" + num1 + "/1500/1000";
     let source2 = "https://picsum.photos/id/" + num2 + "/1500/1000";
   
-  
   return (
         <>
             <div className="Picture-row">

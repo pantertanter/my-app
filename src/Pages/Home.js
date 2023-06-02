@@ -1,14 +1,12 @@
 import React from 'react';
-/* import '../Css/Home.css';
- */import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import CatFacts from '../components/Cat-Facts'
-import ImageRnd from '../components/ImageRnd'
 import Navbar from '../components/Navbar';
-import { Picture1, Picture2 } from '../components/Picture';
 import Footer from '../components/Footer';
 import Spacer from '../components/Spacer';
 import Fill from '../components/Fill'
+import RandomImageRow from '../components/RandomImageRow';
 
 function Home() {
   return (
@@ -21,14 +19,14 @@ function Home() {
         <CatFacts />
         <Spacer />
         <Spacer />
-        <Picture1 />
+        <RandomImageRow />
         <Spacer />
-        <ImageRnd />
+        <RandomImageRow />
         <Spacer />
         <Spacer />
-        <Picture2 />
+        <RandomImageRow />
         <Spacer />
-        <ImageRnd />
+        <RandomImageRow />
         <Spacer />
         <Spacer />
         <Footer />

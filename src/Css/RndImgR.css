@@ -1,0 +1,11 @@
+.image-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-row img {
+    flex: 1;
+    max-width: 33%;
+    height: auto;
+  }
+  

@@ -6,9 +6,15 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Spacer from '../components/Spacer';
 import Fill from '../components/Fill'
-import RandomImageRow from '../components/RandomImageRow';
+import PicsumCarousel from '../components/PicsumCarousel';
+import Payment from '../components/Payment';
+import { Elements } from '@stripe/react-stripe-js';
+import { loadStripe } from '@stripe/stripe-js';
 
 function Home() {
+
+  const stripePromise = loadStripe('YOUR_STRIPE_PUBLIC_KEY');
+
   return (
 
     //TODO LOOK INTO BOOTSTRAP
@@ -18,15 +24,19 @@ function Home() {
         <Spacer />
         <CatFactComponent />
         <Spacer />
+        <h1>Try to click the images on the sides</h1>
         <Spacer />
-        <RandomImageRow />
+        <PicsumCarousel />
         <Spacer />
-        <RandomImageRow />
+        <PicsumCarousel />
         <Spacer />
+      <Elements stripe={stripePromise}>
+        <Payment />
+      </Elements>
         <Spacer />
-        <RandomImageRow />
+        <PicsumCarousel />
         <Spacer />
-        <RandomImageRow />
+        <PicsumCarousel />
         <Spacer />
         <Spacer />
         <Footer />

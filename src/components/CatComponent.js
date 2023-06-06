@@ -12,7 +12,7 @@ const CatFactComponent = () => {
     return <div>Error: {error.message}</div>;
   }
 
-  return <div>Fact: {fact}</div>;
+  return <div>Cat Fact: {fact}</div>;
 };
 
 export default CatFactComponent;

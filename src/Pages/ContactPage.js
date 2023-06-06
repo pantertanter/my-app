@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import CatFactComponent from '../components/CatComponent'
 import Spacer from '../components/Spacer';
 import Fill from '../components/Fill'
-import RandomImageRow from '../components/RandomImageRow';
+import PicsumCarousel from '../components/PicsumCarousel';
 
 export default function ContactPage() {
 
@@ -18,14 +18,15 @@ export default function ContactPage() {
         </header>
         <Spacer />
         <Spacer />
-        <RandomImageRow />
+        <PicsumCarousel />
         <Spacer />
-        <RandomImageRow />
-        <Spacer />
-        <Spacer />
-        <RandomImageRow />
+        <PicsumCarousel />        
         <Spacer />
         <Spacer />
+        <PicsumCarousel />        
+        <Spacer />
+        <Spacer />
+        <PicsumCarousel />
         <Footer />
         <Fill />
         </>

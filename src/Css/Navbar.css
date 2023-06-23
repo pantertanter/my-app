@@ -77,3 +77,7 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+.loginform {
+    transform: translateX(100px); 
+}

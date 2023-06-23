@@ -1,27 +1,108 @@
-/* import React from "react"
+import React, { useState } from 'react';
 
-export default function LoginForm() {
-    return ( 
-        <>
+const Login = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [isCreatingUser, setIsCreatingUser] = useState(false);
+  const [error, setError] = useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // New state for login status
 
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </input>
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    </input>
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-</>
-    )
-} */
+  const handleUsernameChange = (e) => {
+    setUsername(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleToggleUserCreation = () => {
+    setIsCreatingUser(!isCreatingUser);
+    setUsername('');
+    setPassword('');
+    setError('');
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const userData = {
+      username: username,
+      password: password,
+    };
+
+    try {
+      const url = isCreatingUser
+        ? 'http://localhost:8080/sem3_exam_war_exploded/api/signup' // Adjust the endpoint URL accordingly
+        : 'http://localhost:8080/sem3_exam_war_exploded/api/login'; // Adjust the endpoint URL accordingly
+
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(userData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        if (isCreatingUser) {
+          // Handle successful user creation
+          console.log('User created successfully:', data);
+        } else {
+          // Handle successful login
+          const { username, token } = data;
+          console.log(`Logged in as ${username}. Token: ${token}`);
+          setIsLoggedIn(true); // Set login status to true
+        }
+        // Reset form fields and error
+        setUsername('');
+        setPassword('');
+        setError('');
+      } else {
+        setError('Invalid username or password');
+      }
+    } catch (error) {
+      console.error('Request error:', error);
+      setError('Error occurred during the request');
+    }
+  };
+
+  if (isLoggedIn) {
+    // Render content for logged-in state
+    return (
+      <div>
+        <h2>Welcome, {username}!</h2>
+        <button onClick={() => setIsLoggedIn(false)}>Logout</button>
+      </div>
+    );
+  }
+
+  // Render content for login/signup form
+  return (
+    <div>
+      <h2>{isCreatingUser ? 'Create User' : 'Login'}</h2>
+      {error && <p>{error}</p>}
+      <form onSubmit={handleSubmit}>
+        <label>
+          Username:
+          <input type="text" value={username} onChange={handleUsernameChange} />
+        </label>
+        <br />
+        <label>
+          Password:
+          <input type="password" value={password} onChange={handlePasswordChange} />
+        </label>
+        <br />
+        <button type="submit">{isCreatingUser ? 'Create User' : 'Login'}</button>
+      </form>
+      <p>
+        {isCreatingUser ? 'Already have an account? ' : "Don't have an account? "}
+        <button onClick={handleToggleUserCreation}>
+          {isCreatingUser ? 'Login' : 'Create Account'}
+        </button>
+      </p>
+    </div>
+  );
+};
+
+export default Login;
